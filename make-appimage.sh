@@ -13,6 +13,7 @@ export DESKTOP=/usr/share/applications/org.scummvm.scummvm.desktop
 export DEPLOY_OPENGL=1
 export DEPLOY_GTK=1
 export GTK_DIR=gtk-3.0
+export DEPLOY_PIPEWIRE=1 # needed for libfluidsynth
 
 # Deploy dependencies
 quick-sharun /usr/bin/scummvm
